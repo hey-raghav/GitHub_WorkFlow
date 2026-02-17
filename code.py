@@ -16,5 +16,5 @@ while count < 7: #count till 7
         count += 1
     
     num += 1
-
+print("result is: ")
 print(result)

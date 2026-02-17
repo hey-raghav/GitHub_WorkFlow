@@ -2,14 +2,14 @@ count = 0
 num = 1
 result = []
 
-while count < 7:
+while count < 7: #count till 7
     temp = num
     digits = str(num)
     power = len(digits)
     
     total = 0
     for d in digits:
-        total += int(d) ** power
+        total += int(d) ** power #logic
     
     if num % 2 != 0 and total == num: 
         result.append(num)
